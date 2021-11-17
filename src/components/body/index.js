@@ -1,26 +1,35 @@
 import React from "react"
 import './body.css'
 import Work from "./work/index"
-import Contact from "./contact/index"
+import About from "./About/index"
 import Skills from "./skills/index"
-import Project from "./projects/index"
+import Projects from "./projects/index"
+import Contact from "./Contact/index"
 
 function Body(){
     return(
         <div className="body">
         <section id="about">
-            <Contact />
+            <About />
         </section>
        
         <section id="work">
             <Work />
         </section>
+       
         <section id="skills">
             <Skills />
         </section>
+
         <section id="projects">
-            <Project />
+            <Projects />
         </section>
+
+       
+        <section id="contact">
+            <Contact />
+        </section>
+       
     </div>
     )
 }

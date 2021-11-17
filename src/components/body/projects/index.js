@@ -4,7 +4,7 @@ import {ProjectData} from "../../data/projects"
 import ProjectCard from "./ProjectCard"
 import Separator from "../../common/separator"
 
-function Project(){
+function Projects(){
     const data= ProjectData
     return(
         <div className="project">
@@ -19,4 +19,4 @@ function Project(){
     )
 }
 
-export default Project
+export default Projects

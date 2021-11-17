@@ -9,7 +9,7 @@ function Header(){
     const[isOpen,setIsOpen] = useState(true)
     return(
         <div className="header">
-           <div className="logo">React to it..</div>
+           <div className="logo">Frontend Perspective</div>
            <div className="menu">
                <div className="web-menu">
                    <Web />

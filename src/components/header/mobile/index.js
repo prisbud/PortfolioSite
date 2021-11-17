@@ -8,9 +8,9 @@ function Mobile({isOpen,setIsOpen}){
            <div className="close-icon" onClick={()=>setIsOpen(!isOpen)}>
                <FiXCircle />
            </div>
+           <div className="mobile-options">
            <div className="mobile-option">
-           <div className="mobile-option">
-                <a href="#project" >
+                <a href="#projects" >
                 <FiEdit3  className="option-icon"/>  Projects
                 </a>
             </div>
